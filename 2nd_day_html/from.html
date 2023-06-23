@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px;"> <!--pixel inserted in font-size=1rem-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-size: 2rem;">
+    <button>Button</button>
+    <br>
+    <form action="index.php" method="post"> 
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <!--the for in label and id in input must match.-->
+        <!-- placeholder keeps 'Enter your email' this text in the input box so user will be more clear about what they should enter -->
+        <br>
+        <br>
+        <!-- in order to give large line gan, we got CSS, Wait. -->
+        <label for="password"> Enter your Password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="khalti"> khalti</label>
+        <input type="radio" name="payment" id="khalti">
+        <br>
+        <label for="esewa"> e-Sewa</label>
+        <input type="radio" name="payment" id="esewa">
+        <br>
+        <label for="date"> Date</label>
+        <input type="date" name="Dateee" id="date">
+        <br>
+        <label for="bio"> Your bio</label>
+        <input type="text" name="Bio" id="bio">
+        <br>
+        <div style="font-size: 2rem;"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Beatae voluptatum nesciunt ratione cumque magni esse.</p>
+
+
+        <!--radio let us select single option.-->
+
+        <!--checkbox-->
+        <label for="morning">Morning</label>
+        <input type="checkbox" name="time" id="morning">
+        <br>
+        <label for="evening">Evening</label>
+        <input type="checkbox" name="time" id="evening">
+        <!--checkbox let us select multiple options.-->
+
+        <!--selection-->
+        <select name="country" id="desh">
+            <!-- <option value="null">Please select country</option> -->
+            <option value="nepal">Nepal</option>
+            <option value="usa">USA</option>
+            <option value="no-country">No country</option>
+        </select>
+        <input type="submit">
+        <!--input type submit will submit our form.-->
+    </form>
+</body>
+
+</html>

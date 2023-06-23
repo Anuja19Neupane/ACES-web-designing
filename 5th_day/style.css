@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    /* nav is element so no # or . is needed*/
+    display: flex;
+    padding: 0.9rem;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(128, 114, 114);
+    height: 10rem;
+    align-items: center;
+}
+
+.leftsection {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+.rightsection {
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+
+
+
+}
+
+
+.mid-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.hello {
+    font-size: 7rem;
+}
+
+.hello2 {
+    font-size: 3rem;
+}
+
+.service-holder {
+    display: flex;
+    gap: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pizzatext {
+
+    color: rgb(221, 9, 9);
+    padding-left: 10px;
+}
+
+.momotext {
+
+    color: rgb(221, 9, 9);
+}
+
+.icecreamtext {
+
+    color: rgb(221, 9, 9);
+}
+
+.pestry{
+    color: rgb(221, 9, 9);
+}
+
+.kitkat{
+    color: rgb(221, 9, 9);
+}
+
+.current{
+    color: rgb(221, 9, 9);
+}
+

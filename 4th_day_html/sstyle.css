@@ -1,0 +1,75 @@
+html {
+    background-color: rgb(220, 209, 231);
+}
+
+#name {
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+
+#name >h1 {
+    margin:auto;
+    width: fit-content;
+    background-color: white;
+}
+
+.image_container{
+    margin-top: 8rem;
+    height: 250px;
+    /* padding-left: 600px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+
+
+}
+
+.student {
+    width: 30%;
+    height: 10rem;
+    background-color: #D4FAFC;
+    font-size: 4rem;
+    margin: 2rem 30rem;
+    text-align: center;
+
+}
+
+
+.food {
+    background-color: #dbf1bf;
+    width: 30%;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 3rem 30rem;
+    text-align: center;
+    border: #c6f38a;
+}
+
+.heading {
+    font-size: 2rem;
+
+}
+
+.hover-text:hover {
+    color: #9763ca;
+
+}
+
+.list {
+    font-size: 1.5rem;
+}
+
+.hobbies {
+    font-size: 1.5rem;
+}
+
+.contact {
+    font-size: 1.5rem;
+}

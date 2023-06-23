@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+    /* flex-direction: row; */
+    margin: 2rem 3rem 1rem 5rem;
+    color: blue;
+    height: 1000px;
+    /* width: 1000px; */
+    flex-wrap: wrap;
+
+}
+
+.class1 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.class2 {
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    /* align-self: center; */
+}
+
+.class3 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    flex-grow: 2; /* text is 2 times greater compared to other normal text*/
+}
+.class4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(230, 247, 247);
+    
+}
+.class5{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(143, 252, 252);
+}
+
+.grid{
+    display: grid;
+    /* flex-direction: row; */
+    margin: 2rem 3rem 1rem 5rem;
+    color: rgb(125, 125, 134);
+    height: 1000px;
+    /* width: 1000px; */
+}
+

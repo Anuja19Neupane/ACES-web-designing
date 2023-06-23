@@ -1,0 +1,95 @@
+div {
+    height: 5rem;
+    /*by default 1rem=16px */
+    width: 7rem;
+    background-color: aquamarine;
+}
+
+#one {
+    background-color: antiquewhite;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    /* when we do margin-bottom: it is shifed from bottom to top. */
+    position: relative;
+    left: 10rem;
+}
+
+.onee {
+    position: absolute;
+    /*absolute will make changes with respect to it parent where the position is kept relative. */
+    right: 50px;
+
+}
+
+.onee {
+    margin-bottom: 4rem;
+
+}
+
+.test {
+    margin-bottom: 5rem;
+
+
+}
+
+.twothree {
+    text-align: center;
+    font-size: 3rem;
+    width: fit-content;
+    /* fit content will fit the background color exact with the text.*/
+    background-color: coral;
+    /* margin-bottom: 2rem; */
+    margin-top: 2rem;
+    margin-left: 20rem;
+    /* position: fixed; */
+
+}
+
+.henci {
+    width: 20rem;
+    height: 10rem;
+    position: sticky;
+    /* sticky will scroll the block too first and then will make it fixes then*/
+    top: 1rem;
+    z-index: 1;
+
+}
+
+div>p {
+    text-align: center;
+
+}
+
+.sita {
+    font-size: 40px;
+
+}
+
+.box {
+    font-size: 3rem;
+    height: 5rem;
+    width: 10rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(133, 133, 204);
+    border: 10px dashed;
+    /* in place of dashed if solid is written then there will be continuous line, */
+    padding: 5px 10px 15px 20px;
+    margin: 5px 10px 15px 20px;
+    position: fixed;
+    top: 12rem;
+}
+
+.par{
+    width: 100px;
+    height: 300px;
+    background-color: brown;
+    z-index: 0;
+}
+
+.child{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(107, 0, 0);
+    z-index: 1;
+}
